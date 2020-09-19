@@ -1,0 +1,13 @@
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\bin\Debug\netcoreapp3.1\CodingRiddles.exe
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\bin\Debug\netcoreapp3.1\CodingRiddles.deps.json
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\bin\Debug\netcoreapp3.1\CodingRiddles.runtimeconfig.json
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\bin\Debug\netcoreapp3.1\CodingRiddles.runtimeconfig.dev.json
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\bin\Debug\netcoreapp3.1\CodingRiddles.dll
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\bin\Debug\netcoreapp3.1\CodingRiddles.pdb
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.csprojAssemblyReference.cache
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.AssemblyInfoInputs.cache
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.AssemblyInfo.cs
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.csproj.CoreCompileInputs.cache
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.dll
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.pdb
+C:\Users\Veritas\source\repos\CodingRiddles\CodingRiddles\obj\Debug\netcoreapp3.1\CodingRiddles.genruntimeconfig.cache
