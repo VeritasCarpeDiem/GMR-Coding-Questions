@@ -81,6 +81,22 @@ void ReverseLinkedList<T>(ref Node<T> list)
 }
 ```
 You can safely presume there are no cycles in the input list - that is, it's a singly-linked list, with last node's Next property being null Thanks to @Peter Husman for clarifying this important detail!
+### DS-15: Write a function to check if a Binary Tree  is symmetric. Imagine drawing a Binary Tree (or using a visualizer) - looking from the root node at the left and right subtrees, you can probably tell if they are a mirror image of each other (not by values, but by layout of the nodes). Can you write a function that returns true for a tree that's symmetric, and false otherwise? Here's the definition of the tree to use:
+```C#
+class Node<T>
+{
+   public T Value { get; set; } 
+   public Node<T> Left { get; set; }
+   public Node<T> Right { get; set; } 
+}
+```
+Function to write:
+```C#
+bool IsSymmetric<T>(Node<T> tree)
+{
+   // your code... 🤔 
+} 
+```
 ### DS-17: Morse Code  Message Translator: 
 Consider a program that can translate a message from English to Morse Code, and from Morse Code back to English? Example:
 
