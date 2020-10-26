@@ -6,6 +6,7 @@ namespace CodingRiddles
     {
         static void Main(string[] args)
         {
+            //DS-14:
             //https://www.geeksforgeeks.org/nested-classes-in-c-sharp/
             
             DS_14<int>.LinkedList<int> list = new DS_14<int>.LinkedList<int>();
@@ -17,11 +18,10 @@ namespace CodingRiddles
             list.DisplayList(); //1->2->3->null
 
             list.ReverseLinkedList(ref list.Head);
-
             Console.WriteLine();
-
             list.DisplayList(); //3->2->1->null
 
+            //DS-10:
             int[] integers = { 1, 2, 3, 4, 5 };
 
             DS_10.SimpleTree BST = new DS_10.SimpleTree();
