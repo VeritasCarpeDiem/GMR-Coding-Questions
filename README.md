@@ -31,7 +31,7 @@ void ReverseLinkedList<T>(ref Node<T> list)
 }
 ```
 You can safely presume there are no cycles in the input list - that is, it's a singly-linked list, with last node's Next property being null Thanks to @Peter Husman for clarifying this important detail!
-### DS-17 Morse Code  Message Translator: 
+### DS-17: Morse Code  Message Translator: 
 Consider a program that can translate a message from English to Morse Code, and from Morse Code back to English? Example:
 
 Menu:
