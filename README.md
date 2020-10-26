@@ -1,5 +1,55 @@
 # CodingRiddles
 ## Coding questions by Stan Khaykin
+### EZ-15: Print a triangle based on user's input. Example:
+```C#
+Enter size of base: 5
+
+  *
+ ***
+*****
+
+Enter size of base: 7
+
+   *
+  ***
+ *****
+*******
+
+Enter size of base: 1
+Too small!
+
+Enter size of base: 11
+Too large!
+
+Enter size of base: 2
+Must be an odd number!
+
+Enter size of base: 3
+
+ *
+***
+```
+Valid base sizes are odd numbers 3 - 9
+### EZ-14: Please make a function that works similar to int.Parse:
+```C#
+string userInput = "42";
+int number = int.Parse(userInput);  // number is 42
+
+The function takes in a string, and returns a int:
+int ParseInt(string input)
+{
+  // your code
+}
+```
+HINT: remember, string is can be treated as an array of characters - and you can figure out if each character is a number by checking if it's between '0' and '9'. Once you know it's a number, the easiest way to convert that to an integer is to subtract the value '0' (BONUS if you can figure out why that works!). Here's an example:
+```C#
+if(character >= '0' && character <= '9')
+{
+  // This is a digit - let's see which one!
+  int digit = character - '0';
+}
+```
+Of course, you still need to figure out what to do with all those digits...
 ### DS-10: I have a sorted array of integers, like 1, 42, 54, 72, 99, 101; I'd like a function that produces a binary tree (like a BST) from this list. However, it's very important that the tree remains as close to balanced as possible; but I don't want to use AVL or Red/Black trees, due to extra costs of insertion. In fact, here's the structure I want to place my result in:
 ```C#
 class SimpleTree
